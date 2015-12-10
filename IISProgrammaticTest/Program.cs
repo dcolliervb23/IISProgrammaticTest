@@ -16,7 +16,9 @@ namespace IISProgrammaticTest {
                 ErrorDialog = false,
                 CreateNoWindow = true,
                 UseShellExecute = false,
-                Arguments = string.Format("/path:\"{0}\" /port:{1}", @"C:\code\lab\IISProgrammaticTest\Webtest1", 574)
+//                Arguments = string.Format("/path:\"{0}\" /port:{1} /config:", @"C:\code\lab\IISProgrammaticTest\Webtest2", 574),
+                Arguments = string.Format("/config:", @"C:\code\lab\IISProgrammaticTest\Webtest2", 574),
+                
             };
 
             string path = (!string.IsNullOrEmpty(processStartInfo.EnvironmentVariables["programfiles(x86)"]) ? processStartInfo.EnvironmentVariables["programfiles(x86)"] : processStartInfo.EnvironmentVariables["programfiles"]) + "\\IIS Express\\iisexpress.exe";
@@ -28,6 +30,7 @@ namespace IISProgrammaticTest {
             };
 
             IisProcess.Start();
+            Console.WriteLine("site is up!");
             Console.Read();
             Console.WriteLine("ready to stop");
             Shutdown();
@@ -39,6 +42,7 @@ namespace IISProgrammaticTest {
             }
 
             IisProcess.Close();
+            IisProcess.Kill();
         }
 
         //        IISVersionManagerLibrary.IISVersionManager mgr = new IISVersionManagerLibrary.IISVersionManager();
