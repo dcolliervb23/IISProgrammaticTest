@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISProgrammaticTest", "IISProgrammaticTest\IISProgrammaticTest.csproj", "{3FBEB89B-4CA3-41C3-9A15-EE681B38CA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webtest1", "Webtest1\Webtest1.csproj", "{1F1A3788-0787-4B81-97CC-8776B8295B1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FBEB89B-4CA3-41C3-9A15-EE681B38CA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBEB89B-4CA3-41C3-9A15-EE681B38CA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBEB89B-4CA3-41C3-9A15-EE681B38CA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBEB89B-4CA3-41C3-9A15-EE681B38CA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1A3788-0787-4B81-97CC-8776B8295B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1A3788-0787-4B81-97CC-8776B8295B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1A3788-0787-4B81-97CC-8776B8295B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1A3788-0787-4B81-97CC-8776B8295B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

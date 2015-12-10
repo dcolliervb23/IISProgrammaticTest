@@ -1,0 +1,8 @@
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\bin\Debug\IISProgrammaticTest.exe.config
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\obj\Debug\IISProgrammaticTest.csprojResolveAssemblyReference.cache
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\obj\Debug\Interop.IISVersionManagerLibrary.dll
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\obj\Debug\IISProgrammaticTest.csproj.ResolveComReference.cache
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\bin\Debug\IISProgrammaticTest.exe
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\bin\Debug\IISProgrammaticTest.pdb
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\obj\Debug\IISProgrammaticTest.exe
+c:\code\lab\IISProgrammaticTest\IISProgrammaticTest\obj\Debug\IISProgrammaticTest.pdb
