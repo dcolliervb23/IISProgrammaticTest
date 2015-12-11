@@ -193,7 +193,7 @@ namespace IISProgrammaticTest {
                 string destPath = Path.Combine(projPath, "nuget.exe");
                 if (!File.Exists(destPath))
                 {
-                    File.Copy("./Utilities/nuget.exe", destPath);
+                    File.Copy("./Utilities/nuget.txt", destPath);
                 }
 
                 StartProcess("nuget.exe", "restore", projPath);
